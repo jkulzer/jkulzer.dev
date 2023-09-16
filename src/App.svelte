@@ -1,15 +1,14 @@
-<script>
+<script lang="ts">
   import Title from './Title.svelte';
-  import Subtitle from './Subtitle.svelte';
+  import PostList from './PostList.svelte';
   import Footer from './Footer.svelte';
+  import Layout from './Layout.svelte';
 </script>
 
 <main>
-  <Title />
-  <Subtitle />
-  <Footer />
+  <Layout>
+    <Title />
+    <PostList />
+    <Footer />
+  </Layout>
 </main>
-
-<style>
-  /* Add your CSS styles here */
-</style>
